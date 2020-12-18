@@ -1,0 +1,55 @@
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+ 
+
+.columna.left {
+    border-right: 1px solid;
+    font-size: 0.9em;
+    float: left;
+}
+
+
+.formulario label {
+    width: 50%;
+    /*background-color: rebeccapurple;*/
+    display: inline-block;
+    vertical-align: top;
+}
+.formulario label.error{
+   width: auto;
+   font-size: 00.8em;
+   color: red; 
+   width: 100%;
+}
+.formulario input.error,
+.formulario textarea.error{
+    border: 1px solid red;
+    color: pink;
+    
+}
+
+.formulario input,
+.formulario textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario textarea {
+    height: 10em;
+    resize: none;
+}
+
+.formulario input[type="submit"] {
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+}
+

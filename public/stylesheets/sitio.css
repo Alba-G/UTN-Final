@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?1j5c1a');
+    src: url('fonts/icomoon.eot?1j5c1a#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?1j5c1a') format('truetype'), url('fonts/icomoon.woff?1j5c1a') format('woff'), url('fonts/icomoon.svg?1j5c1a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    /*width: 80%;*/
+    margin: 0 auto;
+}
+
+.holder {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*Inicio top-redes*/
+
+.redes ul {
+    margin: 0 auto;
+    padding: 4px;
+    text-align: right;
+    background-color: #dadada;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.redes ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.redes ul li a {
+    text-decoration: none;
+}
+
+.icon-facebook2:before,
+.icon-instagram:before,
+.icon-whatsapp:before {
+    font-family: 'icomoon';
+    font-size: 25px;
+    display: inline-block;
+    color: #696969;
+    padding: 5px;
+}
+
+
+/*.icon-facebook:before,
+.icon-facebook2:before,
+.icon-instagram:before,
+.icon-whatsapp:before:hover {
+    color: #000;
+}*/
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-whatsapp:before {
+    content: "\ea93";
+}
+
+
+/*Fin top-redes*/
+
+
+/*Inicio header*/
+
+header {
+    background-color: #a6ff1f;
+    padding: 1em 0;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #ffb158;
+    padding: 4px;
+    margin-bottom: 2em;
+    /*font-size: 1.2em;*/
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    width: 14%;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ff7b00;
+    animation: 0.5s ease;
+   
+}
+
+nav ul li a.activo {
+    background-color: #ff7b00;
+    
+}
+
+
+/*Fin header*/
+
+footer {
+    font-size: 1em; 
+    background-color: #a6ff1f;
+    clear: both;
+    color: #696969;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+

@@ -1,0 +1,21 @@
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.balance {
+    float: left;
+}
+
+.carb {
+    /* width: 50%; */
+    float: left;
+    box-sizing: content-box;
+    margin-top: 2px;
+}
+
+.definicion {
+    /* width: 50%; */
+    float: right;
+    box-sizing: content-box;
+}

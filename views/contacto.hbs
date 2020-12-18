@@ -1,0 +1,40 @@
+<link rel='stylesheet' href='/stylesheets/extras.css' />
+ <main>
+        <h2>Contacto Rápido</h2>
+        <p>Dejanos tu mail y recibe gratis la <strong>"Guía para aprender a comer mejor".</strong></p> 
+        <p>Esperamos que apliques la información que te damos y que tu relación con los alimentos sea optima ;D </p>
+       
+        <div class="columna left">
+        <form action="/contacto" method="POST" class="formulario" id="formulario">
+            <p>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" required/>
+            </p>
+            <p>
+                <label for="">E-mail</label>
+                <input type="text" placeholder="e-mail@.com" name="email" required/>
+            </p>
+            <p>
+                <label for="">Teléfono</label>
+                <input type="text" placeholder="()1155554444" name="tel" required/>
+            </p>
+            <p>
+                <label for="comentario">Comentarios</label>
+                <textarea name="comentarios" id="comentario" placeholder="Opinión" required></textarea>
+            </p>
+            <p class="acciones"><input type="submit" value="Enviar"></p>
+           
+           
+        </form>
+        <p>{{message}}</p>
+    </div>
+        <div class="columna right">
+            <img src="images/extra/guia.jpg" alt="guia" width="450" height="">
+        </div>
+    </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascripts/validate/jquery.validate.js"></script>
+    <script src="javascripts/validate/messages_es_AR.js"></script>
+    <script>
+        $('#formulario').validate();
+    </script>
